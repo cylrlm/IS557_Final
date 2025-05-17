@@ -10,6 +10,10 @@ The repository consists of ??? main Python notebooks:
 - **training.ipynb**: Trains and evaluates various machine learning models for political text classification.
 - **distill_bert.ipynb**: Full pipeline to train, test and analyze with DistilBERT.
 ## Dataset
+- **gpt directory**:  
+1. split_test_data.py: Split dataset into 10 equal parts.
+2. classify_with_gpt.py: Call OpenAI API to classify splitted test data.
+3. analyze_results.py: Analyze result.
 
 The dataset consists of political texts labeled as either "democratic" or "republican". The data is split into training and testing sets with the following files:
 - `democratic_only.train.en.parquet`
