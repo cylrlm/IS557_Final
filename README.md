@@ -8,7 +8,7 @@ The repository consists of ??? main Python notebooks:
 - **dataConcat.ipynb**: Loads and merges Democratic and Republican datasets into unified train and test sets.
 - **explorer.ipynb**: Performs exploratory data analysis, including class distribution, text length analysis, vocabulary analysis, and political marker detection.
 - **training.ipynb**: Trains and evaluates various machine learning models for political text classification.
-
+- **distill_bert.ipynb**: Full pipeline to train, test and analyze with DistilBERT.
 ## Dataset
 
 The dataset consists of political texts labeled as either "democratic" or "republican". The data is split into training and testing sets with the following files:
